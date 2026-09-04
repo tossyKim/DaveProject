@@ -270,7 +270,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!1 &478471686
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +563,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &538498264
 Transform:
   m_ObjectHideFlags: 0
@@ -816,10 +816,10 @@ GameObject:
   m_Component:
   - component: {fileID: 888502332}
   - component: {fileID: 888502331}
-  - component: {fileID: 888502330}
   - component: {fileID: 888502329}
-  - component: {fileID: 888502333}
   - component: {fileID: 888502334}
+  - component: {fileID: 888502330}
+  - component: {fileID: 888502335}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -872,7 +872,7 @@ MonoBehaviour:
   rb: {fileID: 888502329}
   Aim_Canbus: {fileID: 1331600272}
   PredictLine_Canbus: {fileID: 538498263}
-  harpoonController: {fileID: 888502333}
+  harpoonController: {fileID: 888502335}
 --- !u!212 &888502331
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -944,25 +944,6 @@ Transform:
   - {fileID: 538498264}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &888502333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888502328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 272a06c85e435aa49889a722cc6fd89d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isAiming: 0
-  aimUI: {fileID: 1331600272}
-  Prediction_Line: {fileID: 538498263}
-  aimAngle: 0
-  harpoon: {fileID: 2028598598403353233}
-  front: {fileID: 962709572}
-  HarpoonDir: {x: 0, y: 0}
 --- !u!61 &888502334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1008,6 +989,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.57, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &888502335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888502328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a6b26c3ed2921044b7fcea8a5253998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAiming: 0
+  aimUI: {fileID: 1331600272}
+  Prediction_Line: {fileID: 538498263}
+  aimAngle: 0
+  harpoon: {fileID: 2028598598403353233}
+  front: {fileID: 962709572}
+  Attack_Start: {fileID: 905635460}
+  HarpoonDir: {x: 0, y: 0}
+  hmc: {fileID: 1247749601169110053}
+  AIM: {fileID: 903337978}
 --- !u!1 &903337978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,7 +1037,7 @@ Transform:
   m_GameObject: {fileID: 903337978}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0.456, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1092,6 +1095,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &905635460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905635461}
+  m_Layer: 0
+  m_Name: Attack_Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &905635461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905635460}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 962709573}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &962709572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,7 +1155,8 @@ Transform:
   m_LocalPosition: {x: 0.58, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 905635461}
   m_Father: {fileID: 888502332}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &962709574
@@ -2049,6 +2084,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 346415285769067464}
   power: 1
+  rb_Player: {fileID: 888502329}
+  Player: {fileID: 888502328}
 --- !u!4 &1905000582011596831
 Transform:
   m_ObjectHideFlags: 0
@@ -2144,6 +2181,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 346415285769067464}
+  harpoon: {fileID: 2028598598403353233}
+  Attack_Start: {fileID: 905635460}
+  Attack_End: 0
 --- !u!212 &5704410389426557951
 SpriteRenderer:
   m_ObjectHideFlags: 0

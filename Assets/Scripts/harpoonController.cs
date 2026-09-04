@@ -13,8 +13,10 @@ public class HarpoonController : MonoBehaviour
     public float aimAngle;
     public GameObject harpoon;
     public GameObject front;
+    public GameObject Attack_Start;
     public Vector2 HarpoonDir;
     public HarpoonMovementController hmc;
+    public GameObject AIM;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +34,7 @@ public class HarpoonController : MonoBehaviour
         // 조준 시작 (누른 순간 1회)
         if (Input.GetMouseButtonDown(1))
         {
-            Debug.Log("조준 시작");
+            //Debug.Log("조준 시작");
             isAiming = true;
             Time.timeScale = 0.1f;
             if (aimUI != null)
@@ -51,18 +53,18 @@ public class HarpoonController : MonoBehaviour
         // 조준 중 발사
         if (isAiming == true && Input.GetMouseButtonDown(0))
         {
-            harpoon.transform.position = front.transform.position;
+            harpoon.transform.position = Attack_Start.transform.position;
             harpoon.transform.localRotation = Quaternion.Euler(0,0,aimAngle);
             harpoon.SetActive(true);
-            Debug.Log("작살 나감");
-            hmc.Shoot(HarpoonDir);
+            //Debug.Log("작살 나감");
+            hmc.Shoot(AIM.transform.position);
             isAiming = false;
         }
 
         // 조준 해제
         if (Input.GetMouseButtonUp(1))
         {
-            Debug.Log("조준 해제");
+            //Debug.Log("조준 해제");
             isAiming = false;
         }
         if(isAiming == false)
@@ -88,14 +90,14 @@ public class HarpoonController : MonoBehaviour
         //============= 오른쪽 보고있는 경우
         if(angle > 30 && angle <= 180 && transform.localScale.x > 0)
         {
-            Debug.Log($"우상");
+            //Debug.Log($"우상");
             angle = 30;
         }
 
         else if (angle <= -30 && angle >= -180 && transform.localScale.x > 0)
         {
             angle = -30;
-            Debug.Log($"우하");
+            //Debug.Log($"우하");
         }
         
         //============= 왼쪽 보고있는 경우        
@@ -103,12 +105,12 @@ public class HarpoonController : MonoBehaviour
         if (angle >= 0 && angle < 150 && transform.localScale.x < 0)
         {            
             angle = 150;
-            Debug.Log($"좌상");
+            //Debug.Log($"좌상");
         }
         else if (angle >= -150 && angle < -0 && transform.localScale.x < 0)
         {
             angle = -150;
-            Debug.Log($"좌하");
+            //Debug.Log($"좌하");
         }
         
         Prediction_Line.transform.rotation = Quaternion.Euler(0f, 0f, angle);
