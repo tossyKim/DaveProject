@@ -9,11 +9,16 @@ public class HarpoonController : MonoBehaviour
     public bool isAiming = false;
     public GameObject aimUI; //현재 임시 샘플 ui 출력
     public GameObject Prediction_Line; //조준선 출력
-    private Camera mainCam;    
+    private Camera mainCam;
+    public float aimAngle;
+    public GameObject harpoon;
+    public GameObject front;
+    public Vector2 HarpoonDir;
+    public HarpoonMovementController hmc;
 
     // Start is called before the first frame update
     void Start()
-    {
+    {     
         mainCam = Camera.main;
         if (aimUI == null)
         {
@@ -40,13 +45,18 @@ public class HarpoonController : MonoBehaviour
         // 조준 중: 매 프레임 마우스 방향으로 조준선 갱신
         if (isAiming == true)
         {
-            float angle = UpdateAimDirection();
+            aimAngle = UpdateAimDirection();
         }
 
         // 조준 중 발사
         if (isAiming == true && Input.GetMouseButtonDown(0))
         {
-            Debug.Log("작살 나감");            
+            harpoon.transform.position = front.transform.position;
+            harpoon.transform.localRotation = Quaternion.Euler(0,0,aimAngle);
+            harpoon.SetActive(true);
+            Debug.Log("작살 나감");
+            hmc.Shoot(HarpoonDir);
+            isAiming = false;
         }
 
         // 조준 해제
@@ -54,6 +64,9 @@ public class HarpoonController : MonoBehaviour
         {
             Debug.Log("조준 해제");
             isAiming = false;
+        }
+        if(isAiming == false)
+        {            
             Time.timeScale = 1f;
             if (aimUI != null)
             {
@@ -61,13 +74,14 @@ public class HarpoonController : MonoBehaviour
                 Prediction_Line.SetActive(false);
             }
         }
-    }    
+    }//======================================================================update
 
     // 마우스 방향으로 조준선 회전값 갱신 , 조준선 제한 
-    float UpdateAimDirection()
+    public float UpdateAimDirection()
     {
         Vector3 mouseWorldPos = GetMouseWorldPosition();
         Vector3 dir = mouseWorldPos - transform.position;
+        HarpoonDir = new Vector2(dir.x,dir.y);
 
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
