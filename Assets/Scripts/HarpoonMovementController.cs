@@ -11,9 +11,10 @@ public class HarpoonMovementController : MonoBehaviour
 
     public void Shoot(Vector2 attackDir)
     {
+        attackDir = attackDir.normalized * power;
         Debug.Log("Shoot »£√‚µ ");
-        rb.velocity = attackDir * power;
+        rb.velocity = attackDir;
         rb_Player.velocity = new Vector2(0, 0);
-    }
-        
+    }   
+
 }
