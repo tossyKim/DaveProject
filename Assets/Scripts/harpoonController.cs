@@ -17,6 +17,7 @@ public class HarpoonController : MonoBehaviour
     public Vector2 HarpoonDir;
     public HarpoonMovementController hmc;
     public GameObject AIM;
+    public Vector2 AimDir;
 
     // Start is called before the first frame update
     void Start()
@@ -57,7 +58,9 @@ public class HarpoonController : MonoBehaviour
             harpoon.transform.localRotation = Quaternion.Euler(0,0,aimAngle);
             harpoon.SetActive(true);
             //Debug.Log("작살 나감");
-            hmc.Shoot(AIM.transform.position);
+            //hmc.Shoot(AIM.transform.position);
+            AimDir = AIM.transform.position - harpoon.transform.position;
+            hmc.Shoot(AimDir);
             isAiming = false;
         }
 
