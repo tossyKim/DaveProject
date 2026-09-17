@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\20260901\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\20260901\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\20260901\\assets\\scripts\\fishhpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fishhpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\20260901\\assets\\scripts\\playerbreathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerbreathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\20260901\\assets\\scripts\\brathuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brathuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\20260901\\assets\\scripts\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\20260901\\assets\\scripts\\harpoonmovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\harpoonmovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\HarpoonMovementController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\HarpoonMovementController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\20260901\\assets\\scripts\\harpooncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\harpooncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\20260901\\assets\\scripts\\harpoonattackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\harpoonattackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\20260901\\assets\\scripts\\weaponmovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weaponmovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\20260901\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\20260901\\assets\\scripts\\brathuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brathuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\20260901\\assets\\scripts\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\20260901\\assets\\scripts\\harpoonattackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19A6BDF-987A-5BA8-52E6-D804527BD926}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\harpoonattackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +46,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "WeaponMovementController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\WeaponMovementController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WeaponMovementController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\WeaponMovementController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WeaponMovementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T12:33:56.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BrathUIController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\BrathUIController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BrathUIController.cs",
@@ -50,59 +70,32 @@
               "RelativeToolTip": "Assets\\Scripts\\BrathUIController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T12:42:39.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T12:42:39.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FishHPController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\FishHPController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FishHPController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\FishHPController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FishHPController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T12:10:07.65Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerBreathController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\PlayerBreathController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBreathController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\PlayerBreathController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerBreathController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T12:30:59.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HarpoonMovementController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\HarpoonMovementController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HarpoonMovementController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\HarpoonMovementController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HarpoonMovementController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T12:18:46.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UIController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\UIController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\UIController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T12:04:03.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T12:01:09.441Z"
+              "WhenOpened": "2026-09-04T12:01:09.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -112,13 +105,48 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\harpoonController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\harpoonController.cs",
               "RelativeToolTip": "Assets\\Scripts\\harpoonController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwD4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwD4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-04T12:20:47.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "HarpoonMovementController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\HarpoonMovementController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HarpoonMovementController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\HarpoonMovementController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HarpoonMovementController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T12:18:46.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerBreathController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\PlayerBreathController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBreathController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\PlayerBreathController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerBreathController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABIwCIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T12:30:59.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UIController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\UIController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\UIController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T12:04:03.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "harpoonAttackController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\20260901\\Assets\\Scripts\\harpoonAttackController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\harpoonAttackController.cs",

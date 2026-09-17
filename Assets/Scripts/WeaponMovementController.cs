@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HarpoonMovementController : MonoBehaviour
+public class WeaponMovementController : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float power;
     public Rigidbody2D rb_Player;
     public GameObject Player;
+
+    public float WeaponPower = 10;
 
     public void Shoot(Vector2 attackDir)
     {

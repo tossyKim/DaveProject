@@ -29,4 +29,13 @@ public class PlayerBreathController : MonoBehaviour
         }
         DoBreath();
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        if(collision.gameObject.tag == "Fish_Aggressive")
+        {
+            HPState -= 10;
+        }
+    }
+
 }

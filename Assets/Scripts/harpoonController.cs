@@ -15,7 +15,7 @@ public class HarpoonController : MonoBehaviour
     public GameObject front;
     public GameObject Attack_Start;
     public Vector2 HarpoonDir;
-    public HarpoonMovementController hmc;
+    public WeaponMovementController WMC;
     public GameObject AIM;
     public Vector2 AimDir;
 
@@ -60,7 +60,7 @@ public class HarpoonController : MonoBehaviour
             //Debug.Log("작살 나감");
             //hmc.Shoot(AIM.transform.position);
             AimDir = AIM.transform.position - harpoon.transform.position;
-            hmc.Shoot(AimDir);
+            WMC.Shoot(AimDir);
             isAiming = false;
         }
 

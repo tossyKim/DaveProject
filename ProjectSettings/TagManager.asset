@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fish
+  - fish_Normal
+  - fish_Escape
+  - Fish_Aggressive
+  - Weapon
   layers:
   - Default
   - TransparentFX
