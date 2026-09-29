@@ -17,6 +17,5 @@ public class WeaponMovementController : MonoBehaviour
         Debug.Log("Shoot »£√‚µ ");
         rb.velocity = attackDir;
         rb_Player.velocity = new Vector2(0, 0);
-    }   
-
+    }
 }
