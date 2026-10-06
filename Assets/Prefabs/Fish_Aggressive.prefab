@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd3c1fe71c5666c43b4004f679017fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedMove: 2
+  speedMove: 1
   trnPlayer: {fileID: 0}
   rb: {fileID: 825392340648970557}
   detectionRange: 5
@@ -270,4 +270,4 @@ MonoBehaviour:
   reactionSprite: {fileID: 21300000, guid: 8c3252e6c1568b94cbf8dcc75b0ce9f1, type: 3}
   reactionDisplayTime: 1.5
   aggressiveDetectionRange: 7
-  chaseSpeed: 3
+  chaseSpeed: 1
