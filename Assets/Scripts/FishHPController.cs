@@ -6,9 +6,7 @@ public class FishHPController : MonoBehaviour
 {    
     public float MaxHP;
     public float HPState;
-    public float MinHP;
-    public ItemController ic;
-    
+    public int price;    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -28,7 +26,8 @@ public class FishHPController : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 Debug.Log(gameObject.name + " is Dead");
-                ic.money += 10;
+                ItemController.Instance.money += price;
+                Debug.Log(ItemController.Instance.money);
             }
         }
     }
